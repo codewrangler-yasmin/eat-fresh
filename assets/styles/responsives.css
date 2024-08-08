@@ -1,0 +1,190 @@
+/* Laptop Layout */
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+  /* header banner styles */
+  .container {
+    width: 100%;
+  }
+  .banner-text h2 {
+    font-size: 3.5rem;
+  }
+  .banner-text p {
+    font-size: 1.2rem;
+  }
+  #cards .section-title h3,
+  #cards .section-title p {
+    grid-column: 3 / 11;
+  }
+  .banner-img::before {
+    left: 15%;
+    bottom: -8%;
+  }
+}
+/* Medium Layout: 1200px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    width: 100%;
+  }
+  .banner-text h2 {
+    font-size: 2.5rem;
+  }
+  .banner-text p {
+    font-size: 1.2rem;
+  }
+  .banner-img::before {
+    left: 15%;
+    bottom: -7.5%;
+  }
+  /* about me styles */
+  .about-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  .about-text {
+    grid-column: 7 / 12;
+  }
+  .about-text .btn-container {
+    margin-top: 0;
+  }
+  #cards .section-title h3,
+  #cards .section-title p {
+    grid-column: 2 / 12;
+  }
+  .card-text p {
+    font-size: 1rem;
+  }
+  .counter-content {
+    padding: 60px 0;
+  }
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .container {
+    width: 100%;
+  }
+  .section-padding {
+    padding-top: 60px;
+  }
+  .btn-primary {
+    padding: 15px 42px;
+  }
+  /* banner styles */
+  .banner-text {
+    grid-column: 2 / 12;
+    text-align: center;
+  }
+  .banner-text h2 {
+    font-size: 3rem;
+  }
+  .banner-text p {
+    font-size: 1.6rem;
+  }
+  .banner-img {
+    grid-column: 1 / 11;
+    margin-top: 40px;
+  }
+  .banner-img::before {
+    left: 15%;
+    bottom: -8%;
+  }
+  /* about me styles */
+  .about-img {
+    grid-row: 2 / 3;
+    grid-column: 2 / 12;
+  }
+  .about-text {
+    grid-column: 2 / 12;
+    text-align: center;
+  }
+  .about-text p {
+    font-size: 1rem;
+  }
+  .about-text .btn-container {
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+  /* recipe cards styles */
+  #cards .section-title h3,
+  #cards .section-title p {
+    grid-column: 2 / 12;
+  }
+  .card-text p {
+    font-size: 0.95rem;
+  }
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+  .section-padding {
+    padding-top: 40px;
+  }
+  h3.title {
+    font-size: 1.8rem;
+  }
+  .btn-primary {
+    padding: 15px 42px;
+  }
+  /* banner styles */
+  #banner,
+  #counter {
+    padding-bottom: 0;
+  }
+  .banner-text {
+    grid-column: 1/ 13;
+    text-align: center;
+    gap: 20px;
+  }
+  .banner-text h2 {
+    font-size: 2rem;
+  }
+  .banner-text p {
+    font-size: 1.1rem;
+  }
+  .banner-img {
+    grid-column: 1 / 11;
+    margin-top: 40px;
+  }
+  .banner-img::before {
+    left: 15%;
+    bottom: -8%;
+  }
+  /* about me styles */
+  .about-img {
+    grid-row: 2 / 3;
+    grid-column: 4 / 10;
+  }
+  .about-text {
+    grid-column: 1 / 13;
+    text-align: center;
+    gap: 20px;
+  }
+  .about-text p {
+    font-size: 1rem;
+  }
+  .about-text .btn-container {
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+  /* recipe cards styles */
+  #cards .section-title h3,
+  #cards .section-title p {
+    grid-column: 1 / 13;
+  }
+  .card-text p {
+    font-size: 0.95rem;
+  }
+  .cards-content {
+    row-gap: 20px;
+  }
+  .single-card-item {
+    grid-column: 1 / 13;
+  }
+  /* counter styles */
+  .counter-item {
+    grid-column: 1 / 13;
+    text-align: center;
+    border-bottom: rgb(221 221 221 / 66%) 1px solid;
+    padding-bottom: 20px;
+  }
+}
